@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+.round-circle {
+  background-color: #ffffff;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2px;
+  padding-top: 50px;
+}
+.play-icon {
+  width: 70px;
+}
+.play-icon-and-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+  border: none;
+  background-color: transparent;
+}
+.play-and-reset {
+  display: flex;
+  flex-direction: row;
+}
+.pause-text {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: bold;
+}
+.set-timer-limit {
+  font-family: roboto;
+  font-size: 18px;
+}
+.number-increase-and-decrease {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box-number {
+  background-image: linear-gradient(to left, #cffcf1, #defafe);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.minus {
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.plus {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.bottom-total-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-image-and-bottom-total-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .bg-container {
+    height: 100vh;
+  }
+}
